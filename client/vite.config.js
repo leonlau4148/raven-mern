@@ -5,4 +5,5 @@ import react from '@vitejs/plugin-react';
 // The react() plugin enables JSX and fast refresh (hot reload).
 export default defineConfig({
   plugins: [react()],
+  base: '/raven-mern/',
 });
